@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="インデントリスト" description="" preview="code" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[/* インデントlist
+-----------------------------------------*/
+.ex_listindent1 li{
+	text-indent:-1em;
+	padding:0 0 0 1em;
+}]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

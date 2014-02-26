@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="after/clear" description="" preview="code" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[.clearfix:after {
+  content: ""; 
+  display: block; 
+  clear: both;
+ }]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

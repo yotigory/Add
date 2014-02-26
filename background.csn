@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="background" description="" preview="code" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[	background:transparent url('../img/listmaker01_on.gif') no-repeat 14px 0.8em;]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

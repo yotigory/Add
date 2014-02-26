@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="縦横の文字サイズ調整" description="" preview="code" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[body {
+  -webkit-text-size-adjust: 100%;
+}]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

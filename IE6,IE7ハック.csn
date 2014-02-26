@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="IE6,IE7ハック" description="" preview="code" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[.mod_header ul {/width:700px;} /* IE6,IE7 */]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

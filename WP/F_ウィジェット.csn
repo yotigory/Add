@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="F_ウィジェット" description="" preview="code" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[<?php
+register_sidebar(array(
+'name' => __( 'mainnav', '' ),
+'before_widget' => '<div id="%1$s" class="mod_mainnav widget %2$s">',
+'after_widget' => '</div>',
+'before_title' => '<h3>',
+'after_title' => '</h3>',
+));
+register_sidebar(array(
+'name' => __( 'sidebertop', '' ),
+'description' => 'サイドバー上部のウィジェットエリア',
+'before_widget' => '<div id="%1$s" class="widget %2$s">',
+'after_widget' => '</div>',
+'before_title' => '<h3>',
+'after_title' => '</h3>',
+));
+register_sidebar(array(
+'name' => __( 'footerlink01', '' ),
+'before_widget' => '<div id="%1$s" class="mod_footerlink01 widget %2$s">',
+'after_widget' => '</div>',
+'before_title' => '<h3>',
+'after_title' => '</h3>',
+));
+register_sidebar(array(
+'name' => __( 'footerlink02', '' ),
+'before_widget' => '<div id="%1$s" class="mod_footerlink02 widget %2$s">',
+'after_widget' => '</div>',
+'before_title' => '<h3>',
+'after_title' => '</h3>',
+));
+register_sidebar(array(
+'name' => __( 'footerlink03', '' ),
+'before_widget' => '<div id="%1$s" class="mod_footerlink01 widget %2$s">',
+'after_widget' => '</div>',
+'before_title' => '<h3>',
+'after_title' => '</h3>',
+));
+?>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[P135]]>
+</insertText>
+</snippet>

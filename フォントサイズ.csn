@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="フォントサイズ" description="" preview="code" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[html { font-size: 62.5%; }]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[font-size:14px;
+font-size:1.4rem;]]>
+</insertText>
+</snippet>

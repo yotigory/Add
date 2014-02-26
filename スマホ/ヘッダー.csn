@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="ヘッダー" description="" preview="code" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title></title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="format-detection" content="telephone=no">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="common/css/style.css">
+
+<script src="common/js/vendor/modernizr-2.6.2.min.js"></script>
+</head>
+<body>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="common/js/vendor/jquery-1.10.1.min.js"><\/script>')</script>
+<script src="common/js/vendor/scrollsmoothly.js"></script>
+<script src="common/js/main.js"></script>
+<script>
+if(/Android/.test(window.navigator.userAgent)){
+	document.getElementsByTagName("body")[0].setAttribute("class","android");
+}
+</script>
+</body>
+</html>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

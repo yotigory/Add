@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="IE6アラート" description="" preview="code" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[<script type="text/javascript" src="http://ie6alert-js.googlecode.com/hg/ie6alert.min.js"></script>
+<script type="text/javascript">
+   ie6Alert();
+</script>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

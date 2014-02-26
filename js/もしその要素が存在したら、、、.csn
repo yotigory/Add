@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="もしその要素が存在したら、、、" description="" preview="code" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[if($(".mod_productlist_entry").size()){
+
+//ここへ要素があった場合の処理
+
+}]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

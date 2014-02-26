@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="スマホ判定" description="" preview="code" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[// class add
+$(function(){
+	if (navigator.userAgent.indexOf('iPhone') > 0) {
+		$('body').addClass('iPhone');
+	} else if (navigator.userAgent.indexOf('Android') > 0) {
+		$('body').addClass('Android');
+	}
+});]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

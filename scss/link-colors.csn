@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="link-colors" description=".foo{@include link-colors(#333,#333,#333,#222,#222);}" preview="code" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[@include link-colors($normal, $hover, $active, $visited, $focus)]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

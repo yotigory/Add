@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="リキッド画像継承　" description="" preview="code" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[h1 img{
+    @extend .ex_flexibleimg;
+}]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

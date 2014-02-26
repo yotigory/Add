@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="box-sizing" description="" preview="code" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[@include box-sizing(border-box);
+]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

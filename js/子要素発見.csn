@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="子要素発見" description="" preview="code" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[if($('#sform').children().is("input[name='sort']")){
+alert('ありまんがな');
+}
+
+http://mbkzmks.blogspot.jp/2009/01/blog-post.html]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

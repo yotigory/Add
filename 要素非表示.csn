@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="要素非表示" description="" preview="code" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[  height: 0;
+  overflow: hidden;
+  position: absolute;
+  text-indent: -9999px;
+  visibility: hidden;
+
+
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

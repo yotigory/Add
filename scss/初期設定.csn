@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="初期設定" description="" preview="code" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[@import "compass";
+@import "_reset";
+@import "_common";
+]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

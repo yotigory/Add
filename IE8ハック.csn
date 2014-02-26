@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="IE8ハック" description="" preview="code" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[#help_me { color: blue\9; }
+]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

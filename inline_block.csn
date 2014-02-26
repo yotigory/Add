@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="inline_block" description="" preview="code" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[ul{/*ulに限らず inline-blockを適応させる要素の親に追加*/
+letter-spacing:-0.4em;/*隙間をなくすためのハック*/
+}
+li{
+letter-spacing:normal;/*隙間をなくすためのハック*/
+display:inline-block;
+*display: inline;
+*zoom: 1;
+}]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

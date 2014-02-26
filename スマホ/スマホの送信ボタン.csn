@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="スマホの送信ボタン" description="ベタ塗りボタンを作るとき必要" preview="code" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[ -webkit-appearance: none;]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

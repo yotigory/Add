@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="noConflict()" description="" preview="code" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[jQuery(document).ready(function($){
+
+  // foo
+});]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[http://kachibito.net/web-design/wordpress-with-jquery.html]]>
+</insertText>
+</snippet>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="～秒後に、指定した要素をフェードアウトさせる" description="" preview="code" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[setTimeout(function() {
+    $("#coverimage").fadeOut();
+}, 5000);]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

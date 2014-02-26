@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="最低限高さ確保" description="" preview="code" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[	min-height:11px;
+	height:auto!important;
+	height:11px;]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

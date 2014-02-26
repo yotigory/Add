@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="関数グリッド計算" description="" preview="code" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[// 関数
+
+$totalWidth: 940px;
+$columnCount: 10;
+
+@function getColumnWidth($width, $count) {
+    // $columnWidthを計算
+    $padding: 10px;
+    $columnWidth: floor(($width - ($padding * ($count - 1))) / $count);
+    @debug $columnWidth;
+    @return $columnWidth;
+}
+
+.grid {
+    float: left;
+    width: getColumnWidth($totalWidth, $columnCount);
+}]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

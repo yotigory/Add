@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="スタイルの継承" description="" preview="code" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[.msg {
+        font-size   : 12px;
+        font-weight : bold;
+        padding     : 2px 4px;
+    }
+    .errMsg {
+        @extend .msg;
+        background : red;
+    }]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="パンくず" description="" preview="code" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[<div class="mod_breadcrumbs">
+<ol>
+<li><a href="#">HOME</a></li>
+<li>ページ01</li>
+</ol>
+<!-- mod_breadcrumbs_end --></div>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

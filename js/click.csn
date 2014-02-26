@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="click" description="" preview="code" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[$(".moremenu li").click(function(){
+	$(".tabinner_block").css("display","none");
+	var id = $(this).attr("id");
+	$(".tabinner_block."+id).css("display","block");
+});]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

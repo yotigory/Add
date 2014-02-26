@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="IE6ハック" description="" preview="code" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[* html #help_me  { color: red; } /* IE6 */]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="透明度" description="" preview="code" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[/* Link
+-----------------------------------------*/ 
+.ex_opaity a:link    {}
+.ex_opaity a:visited {}
+.ex_opaity a:hover   {opacity:0.8;}
+.ex_opaity a:active  {opacity:0.8;}
+/* IE用 ↓*/
+.ex_opaity a:hover img {-ms-filter: "alpha( opacity=80 )";}
+.ex_opaity a:hover img {filter:alpha(opacity=80);}
+]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

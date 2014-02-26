@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="CSS_link" description="" preview="code" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[ a:link    {color:#000; text-decoration:underline;}
+ a:visited {color:#000; text-decoration:underline;}
+ a:hover   {color:#000; text-decoration:underline;}
+ a:active  {color:#000; text-decoration:underline;}]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

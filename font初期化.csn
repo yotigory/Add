@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="font初期化" description="" preview="code" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[html { font-size: 62.5%; }
+
+body{
+ word-break:break-all; 
+ word-wrap:break-word; 
+ font-family: "メイリオ", Meiryo, "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "ＭＳ Ｐゴシック", "Lucida Grande", "Lucida Sans Unicode", Arial, Verdana, sans-serif;
+ text-align:justify;
+ text-justify:inter-ideograph;
+ font-size:14px;
+ font-size:1.4rem;
+}
+
+http://g-azami.tumblr.com/post/76447906591/a-2014-edition-japanese-css-font-family-set-up]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="リキッド画像" description="" preview="code" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[/* ex_flexibleimg
+-----------------------------------------*/
+img.ex_flexibleimg {
+width: 100%;
+max-width: 100%;
+width /***/:auto;　/*IE8のみ適用*/
+height: auto;
+display: block
+}
+.ex_flexibleimg img{
+width: 100%;
+max-width: 100%;
+height: auto;
+display: block
+}]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[width: 100%;を入れるとwrapしているコンテンツ分伸びる。
+外すと画像サイズ以上にならないよ。]]>
+</insertText>
+</snippet>

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="margin" description="" preview="code" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[/* margin
+-----------------------------------------*/
+#fs01-content #Area_mansion .marginBS{
+ margin-bottom:10px!important;
+}
+#fs01-content #Area_mansion .marginBM{
+ margin-bottom:20px!important;
+}
+#fs01-content #Area_mansion .marginT0{
+ margin-top:0px!important;
+}
+#fs01-content #Area_mansion .marginTSS{
+ margin-top:5px!important;
+}
+#fs01-content #Area_mansion .marginTS{
+ margin-top:10px!important;
+}
+#fs01-content #Area_mansion .marginTM{
+ margin-top:20px!important;
+}
+#fs01-content #Area_mansion .marginTL{
+ margin-top:30px!important;
+}
+#fs01-content #Area_mansion .marginRS{
+ margin-right:10px!important;
+}]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

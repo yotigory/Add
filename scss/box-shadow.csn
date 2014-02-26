@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="box-shadow" description="初期設定は、縦横0pxぼかし5pxカラー#333" preview="code" type="block">
+<insertText location="beforeSelection">
+<![CDATA[@include box-shadow(#333 2px 2px 10px inset);]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

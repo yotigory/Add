@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="text-shadow" description="@import "compass/css3";" preview="code" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[@include text-shadow(0px 1px 0px #FFFFFF);]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

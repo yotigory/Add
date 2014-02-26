@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="ずるい線" description="" preview="code" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[http://www.atmarkit.co.jp/ait/articles/1212/06/news004.html
+
+https://speakerdeck.com/ken_c_lo/zurui-design]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

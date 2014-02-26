@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="_common" description="" preview="code" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[/*****************************************************************************
+ SET
+*****************************************************************************/
+$imgDir: "../img/";
+$fontbaseColor: #333;
+
+@mixin areawidth {
+ margin:0 auto;
+ width:960px;
+}
+@mixin fontsize($size){
+ font-size: $size + px;
+ font-size: ($size / 10) * 1rem;
+}
+]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

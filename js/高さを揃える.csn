@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="高さを揃える" description="" preview="code" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[// 高さを揃える
+$(window).load(function() {
+  $(".linklist").each(function(){
+  var wrap = $(this);
+  var entry = wrap.find(".linklist_entry");
+  $(entry).tile(3);
+  });
+});
+]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

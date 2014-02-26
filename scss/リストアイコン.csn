@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="リストアイコン" description="ul,olに記述　" preview="code" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[@include pretty-bullets("arrow.png",幅,高さ,行間,左パディング);]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

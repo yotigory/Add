@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="スマホ横にしたときに文字の拡大をふせぐ　CSS" description="" preview="code" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[body {
+	-webkit-text-size-adjust: 100%;
+}
+]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

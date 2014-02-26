@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="OGP" description="" preview="code" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[<meta property="og:title" content="ページタイトル" />
+<meta property="og:type" content="websiteまたはarticle" />
+<meta property="og:url" content="ページのURL（http://から指定）" />
+<meta property="og:site_name" content="サイト名" />
+<meta property="og:description" content="ページの説明" />
+<meta property="og:image" content="画像のURL（http://から指定）" />
+<meta property="og:locale" content="ja_JP" />
+<meta property="fb:app_id" content="XXXXXXXXXXXXXXXX" />
+<meta property="fb:page_id" content="XXXXXXXXXXXXXXXX" />
+<meta property="fb:admins" content="XXXXXXXXXXXXXXXX" />]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

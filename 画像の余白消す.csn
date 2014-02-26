@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="画像の余白消す" description="" preview="code" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[img {
+	vertical-align: top;
+	font-size:0;
+	line-height:0;	
+} ]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

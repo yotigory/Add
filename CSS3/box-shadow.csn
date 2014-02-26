@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="box-shadow" description="" preview="code" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[	/*box-shadow*/
+	-webkit-box-shadow:0px 2px 4px #EE95A7;
+	-moz-box-shadow:0px 2px 4px #EE95A7;
+	box-shadow:0px 2px 4px #EE95A7;]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

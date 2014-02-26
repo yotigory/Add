@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="フロートボックス" description="" preview="code" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[<div class="_box ex-clearfix">
+<div class="_box_left">
+<!-- _end --></div>
+
+<div class="_box_right">
+<!-- _end --></div>
+<!-- _end --></div>]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

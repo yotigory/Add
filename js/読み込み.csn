@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="読み込み" description="" preview="code" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[var subnav ='<div class="mod_subnav">'+
+
+
+'<!--mod_subnav_end--></div>';
+document.write(subnav);
+]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

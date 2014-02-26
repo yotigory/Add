@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="CSS base" description="" preview="code" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[html { font-size: 62.5%; }
+body {
+	word-break:break-all; /* 常に行末に改行 */
+	word-wrap:break-word; /* 半角英数字折り返し許可 */
+	text-align:justify; /*テキストを両端揃えFF */
+  font:"ヒラギノ角ゴ Pro W3 san" sans-serif;
+  -webkit-text-size-adjust: 100%;
+ font-size:14px;
+ font-size:1.4rem;
+}
+]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>
