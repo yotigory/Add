@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="画像押してもチェック" description="" preview="code" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[/*画像を押してもチェック*/
+$(function(){
+ $(".lt-ie9 .imgcheck").each(function() {
+ 	var checkset = $(this);
+  var checkimg = checkset.find("img");
+  var checkinput = checkset.find("input");
+
+ $(checkimg).click(function(){
+	 if($(checkinput).is(":checked")){
+    $(checkinput).attr("checked",false);
+				}else{
+     $(checkinput).attr("checked",true);
+		}
+});
+});
+});]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>
