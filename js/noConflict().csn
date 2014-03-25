@@ -4,6 +4,15 @@
 <![CDATA[jQuery(document).ready(function($){
 
   // foo
+});
+
+jQuery.noConflict();
+var j$ = jQuery;
+
+//current表示
+j$(function(){
+ var id = j$(".mod_movie_category").prop("id");
+ j$(".mod_movie_category_list dl."+id + " dd a").addClass("current");
 });]]>
 </insertText>
 <insertText location="afterSelection"><![CDATA[http://kachibito.net/web-design/wordpress-with-jquery.html]]>
