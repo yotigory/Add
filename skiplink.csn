@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="skiplink" description="" preview="code" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[#area_skiplink {
+ background-color: #333;
+ @include fontsize(12);
+ line-height: 2;
+ text-align: center;
+  a{
+    position:absolute;
+    top:-10em;
+    @include link-colors(#FFF, #FFF, #FFF, #FFF, #FFF)
+   }
+   a:focus{position:static; top:0px;}
+}]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>
