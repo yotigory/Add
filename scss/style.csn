@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="style" description="" preview="code" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[@import "compass";
+@import "_reset";
+
+/*****************************************************************************
+ SET
+*****************************************************************************/
+$imgDir: "../img/";
+$fontbaseColor: #333;
+
+@mixin areawidth {
+ margin:0 auto;
+ width:980px;
+}
+@mixin fontsize($size){
+ font-size: $size + px;
+ font-size: ($size / 10) * 1rem;
+}
+@import "_common";
+
+/*****************************************************************************
+ Toppage
+*****************************************************************************/
+/* mod_mainslide
+-----------------------------------------*/
+
+]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>
