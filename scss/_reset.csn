@@ -135,6 +135,8 @@ body {
  font-family: "メイリオ", Meiryo, "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "ＭＳ Ｐゴシック", "Lucida Grande", "Lucida Sans Unicode", Arial, Verdana, sans-serif;
  text-align:justify;
  text-justify:inter-ideograph;
+ font-size:10px;
+ font-size:1.0rem;
 }
 /* 5．img
 -----------------------------------------*/
@@ -142,7 +144,9 @@ img {
 	vertical-align: top;
 	font-size:0;
 	line-height:0;	
-} ]]>
+} 
+
+]]>
 </insertText>
 <insertText location="afterSelection"><![CDATA[]]>
 </insertText>
