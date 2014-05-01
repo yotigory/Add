@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="命令を作る" description="" preview="code" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[function sortpanel(){
+		var btn =$(".mod_indexmenu ul li a");	
+	
+		btn.click(function(){
+		$(".mod_casebox").css("display","none");
+		$(btn).removeClass("current");
+		$(this).addClass("current");
+		//checkbox
+		var id = $(this).attr("id");
+		//label
+		$(".mod_casebox."+id).tile().show("fast");
+		});
+	}]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

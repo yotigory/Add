@@ -5,10 +5,10 @@
 
 /*****************************************************************************
  1．html5doctor.com Reset Stylesheet
- 1.5 リストマーカー無
- 2．スクロールバーを常に表示
- 3．日本語用フォント指定
- 4．画像余白を消す
+ 2. listmarker
+ 3．scrollbar
+ 4．font
+ 5．img
 *****************************************************************************/
 
 /* 1.html5doctor.com Reset Stylesheet
@@ -116,16 +116,16 @@ input, select {
     vertical-align:middle;
 }
 
-/* 1.5 リストマーカー無
+/* 2. listmarker
 -----------------------------------------*/
 ol, ul {
 	list-style: none;
 }
-/* 2．スクロールバーを常に表示
+/* 3．scrollbar
 -----------------------------------------*/
 html{overflow-y:scroll;}
 
-/* 3．フォント関連半角英数字折り返しする
+/* 4．font
 -----------------------------------------*/
 html { font-size: 62.5%; }
 body {
@@ -136,15 +136,13 @@ body {
  text-align:justify;
  text-justify:inter-ideograph;
 }
-/* 6．画像余白を消す
+/* 5．img
 -----------------------------------------*/
 img {
 	vertical-align: top;
 	font-size:0;
 	line-height:0;	
-} 
-
-]]>
+} ]]>
 </insertText>
 <insertText location="afterSelection"><![CDATA[]]>
 </insertText>
