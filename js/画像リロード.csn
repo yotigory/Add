@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="画像リロード" description="" preview="code" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[jQuery.noConflict();
+jQuery(document).ready(function($){
+ $(".reservelist li").each(function() {
+  var set = $(this);
+	var imglink = set.find("a.fcImg");
+	var timestamp = new Date().getTime();
+	$(imglink).attr('href', $(imglink).attr('href')+'?'+timestamp);
+});
+});
+]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>
