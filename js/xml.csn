@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="xml" description="" preview="code" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[function fresh(){
+	var dlbody = $("#news_content");
+	$.ajax({
+    type: 'GET',
+		url: 'rss/whatsnew.xml',
+		dataType: 'xml',
+		success: function(xml){
+			var newslist = $(xml);
+			newslist.find('item').each(function(i){
+        i = i + 1;
+        if(i == 6) {
+            return false;
+        }
+				var newsitem = $(this);
+				var newsitem_title = newsitem.find('title').text();
+				var newsitem_date = newsitem.find('date').text();
+				var newsitem_link = newsitem.find('link').text();
+				var dt = $('<dt />').text(newsitem_date);
+				//var ddlink = $('<a />').text(newsitem_link);
+				var dd = '<dd><a href="'+newsitem_link+'">'+newsitem_title+'</a></dd>';
+
+				dlbody.append(dt);
+				dlbody.append(dd);
+			});
+		}
+	});
+}
+
+fresh();
+
+});]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

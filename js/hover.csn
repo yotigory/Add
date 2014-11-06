@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="hover" description="http://neet-navi.info/wordpress/4434/#3" preview="code" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[  //hover img
+  $(".mod_article_main_product_entry img").hover(function(){
+   $(this).stop().fadeTo(300,0.6);
+    },
+   function(){
+    $(this).stop().fadeTo(300,1.0);
+  });
+	//hover text
+	$(".productEntryTitle a").hover(function() {
+		$(this).stop().animate({color: "#0096c1"}, 500);
+		 },function() {
+		$(this).stop().animate({color: "#000" }, 500);
+	});
+  //hover bgcolor
+	$(".mod_article_main_product_entry").hover(function() {
+   $(this).stop().animate({ backgroundColor: "#EEE"}, 500);//ON
+    },function() {
+   $(this).stop().animate({ backgroundColor: "#fff" }, 500);//OFF
+    });]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

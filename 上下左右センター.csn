@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="上下左右センター" description="http://c-brains.jp/blog/wsg/14/08/06-100100.php" preview="code" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[position: absolute;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+margin: auto;
+width: 任意の値
+height: 任意の値]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>
