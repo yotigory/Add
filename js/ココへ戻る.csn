@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="ココへ戻る" description="" preview="code" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[	  var targetOffset = $("#categoryTab").offset().top;
+	  $('html,body').animate({scrollTop: targetOffset}, "slow");
+]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

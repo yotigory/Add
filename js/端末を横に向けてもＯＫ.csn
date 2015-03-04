@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="端末を横に向けてもＯＫ" description="" preview="code" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[$(function () {
+var $window = $(window);
+$window.on('orientationchange load', function () {
+
+});
+});]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

@@ -3,7 +3,7 @@
 <insertText location="beforeSelection">
 <![CDATA[/* ex_opacity
 -----------------------------------------*/ 
-.ex_opacity a:link    {}
+.ex_opacity a:link    {transition: opacity 0.3s ease 0s;}
 .ex_opacity a:visited {}
 .ex_opacity a:hover   {opacity:0.8;}
 .ex_opacity a:active  {opacity:0.8;}
