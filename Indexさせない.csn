@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<snippet name="仮画像" description="" preview="code" type="wrap">
+<snippet name="Indexさせない" description="" preview="code" type="wrap">
 <insertText location="beforeSelection">
-<![CDATA[<img width="573" height="100" alt="" src="http://dummyimage.com/573x100/cfcfcf/666">]]>
+<![CDATA[<meta name="robots" content="noindex,nofollow,noarchive">]]>
 </insertText>
 <insertText location="afterSelection"><![CDATA[]]>
 </insertText>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="アニメーション" description="" preview="code" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[ -ms-transition:all 0.3s linear 0s;
+ -moz-transition:all 0.3s linear 0s;
+ -webkit-transition:all 0.3s linear 0s;
+ transition:all 0.3s linear 0s;]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>

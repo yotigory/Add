@@ -1,9 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<snippet name="transition" description="" preview="code" type="wrap">
+<snippet name="フォームのデザインリセット" description="" preview="code" type="wrap">
 <insertText location="beforeSelection">
-<![CDATA[	-webkit-transition:1s;
-	-moz-transition:1s;
-	-o-transition:1s;]]>
+<![CDATA[ -webkit-appearance:none;
+ appearance:none;]]>
 </insertText>
 <insertText location="afterSelection"><![CDATA[]]>
 </insertText>

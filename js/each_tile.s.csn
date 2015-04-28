@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<snippet name="each tile.s" description="" preview="code" type="wrap">
+<insertText location="beforeSelection">
+<![CDATA[jQuery.noConflict();
+jQuery(document).ready(function($){
+ $(".mod_product_box").each(function() {
+	var box = $(this).find(".mod_product_box_enty");
+  $(box).tile(3);
+});
+});]]>
+</insertText>
+<insertText location="afterSelection"><![CDATA[]]>
+</insertText>
+</snippet>
